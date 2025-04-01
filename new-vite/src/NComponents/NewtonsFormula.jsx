@@ -21,7 +21,7 @@ function NewtonsFormula() {
  
   return (
     <div className="container">
-      <h1>Newtons Formula</h1>
+      <h1>Newtons Method</h1>
       <form id="quad-form" onSubmit={(event) => { newtonsFormula(event) }}>
         <label htmlFor="a">a value:</label>
         <input type="number" id="a" name="a" value={a} onChange={(event) => { setA(Number(event.target.value)) }} required />
