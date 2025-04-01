@@ -38,7 +38,7 @@ function PolynomialFunction() {
 
   return (
     <div className="container">
-      <h1>Polynomial Function Calculator</h1>
+      <h1>Polynomial Function</h1>
       <form onSubmit={handlePolynomialCalculation}>
         <label htmlFor="coefficients">Coefficients:</label>
         <input type="text" id="coefficients" name="coefficients" value={coefficients} onChange={(event) => setCoefficients(event.target.value)} required/>
